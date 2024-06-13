@@ -5,16 +5,16 @@ repos:
       - id: rye-lint
         name: rye-lint
         entry: rye lint --fix
-        language: python
+        language: system
         types: [file, python]
       - id: rye-format
         name: rye-format
         entry: rye fmt
-        language: python
+        language: system
         types: [file, python]
       - id: rye-yamllint
         name: rye-yamllint
         description: This hook runs yamllint.
         entry: rye run yamllint
-        language: python
+        language: system
         types: [file, yaml]
