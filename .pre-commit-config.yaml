@@ -12,3 +12,9 @@ repos:
       entry: rye fmt
       language: python
       types: [file, python]
+    - id: rye-yamllint
+      name: rye-yamllint
+      description: This hook runs yamllint.
+      entry: rye run yamllint
+      language: python
+      types: [file, yaml]

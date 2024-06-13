@@ -23,6 +23,8 @@ nodeenv==1.9.1
     # via pre-commit
 packaging==24.1
     # via pytest
+pathspec==0.12.1
+    # via yamllint
 platformdirs==4.2.2
     # via virtualenv
 pluggy==1.5.0
@@ -31,5 +33,7 @@ pre-commit==3.7.1
 pytest==8.2.2
 pyyaml==6.0.1
     # via pre-commit
+    # via yamllint
 virtualenv==20.26.2
     # via pre-commit
+yamllint==1.35.1
