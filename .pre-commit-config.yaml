@@ -1,0 +1,14 @@
+---
+repos:
+  - repo: local
+    hooks:
+    - id: rye-lint
+      name: rye-lint
+      entry: rye lint --fix
+      language: python
+      types: [file, python]
+    - id: rye-format
+      name: rye-format
+      entry: rye fmt
+      language: python
+      types: [file, python]
