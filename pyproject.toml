@@ -3,7 +3,7 @@ name = "python-template-with-rye"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "lycheejam", email = "lycheejamwow@gmail.com" }
+    { name = "lycheejam" }
 ]
 dependencies = []
 readme = "README.md"
