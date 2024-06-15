@@ -44,4 +44,4 @@ jobs:
 
       - name: Run Yaml Linter
         run: |
-          rye run yamllint
+          rye run yamllint .
