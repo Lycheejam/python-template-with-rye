@@ -19,6 +19,7 @@ dev-dependencies = [
     "pytest>=8.2.2",
     "pre-commit>=3.7.1",
     "yamllint>=1.35.1",
+    "mypy>=1.10.0",
 ]
 
 [tool.hatch.metadata]

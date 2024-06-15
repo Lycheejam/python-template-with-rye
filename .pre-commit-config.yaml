@@ -2,6 +2,12 @@
 repos:
   - repo: local
     hooks:
+      - id: rye-mypy
+        name: rye-mypy
+        description: This hook runs mypy.
+        entry: rye run mypy
+        language: system
+        types: [file, python]
       - id: rye-lint
         name: rye-lint
         entry: rye lint --fix

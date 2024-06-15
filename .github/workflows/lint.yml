@@ -29,6 +29,10 @@ jobs:
         run: |
           rye sync
 
+      - name: Run Python Type Checker
+        run: |
+          rye run mypy
+
       - name: Run Python Linter
         run: |
           rye lint
