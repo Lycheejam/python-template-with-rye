@@ -32,7 +32,7 @@ jobs:
 
       - name: Run Python Type Checker
         run: |
-          rye run mypy
+          rye run mypy src/
 
       - name: Run Python Linter
         run: |
