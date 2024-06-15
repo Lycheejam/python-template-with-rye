@@ -1,10 +1,11 @@
 ---
-name: Lint
+name: Lint and format
 
 on: push
 
 jobs:
   build:
+    name: Lint and format
     runs-on: ubuntu-latest
     strategy:
       matrix:
