@@ -1,5 +1,8 @@
 # Python template with rye
 
+![Lint and Format](https://github.com/Lycheejam/python-template-with-rye/actions/workflows/lint.yml/badge.svg)
+![Tests](https://github.com/Lycheejam/python-template-with-rye/actions/workflows/tests.yml/badge.svg)
+
 ryeで管理するPythonプロジェクトテンプレートです。  
 「Use this repository」から使用します。
 
